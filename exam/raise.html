@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://github.com/carlcedeno/Cedeno_WebDev_Finals/blob/master/exam/style.css">
+<html><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+body{
+background: AliceBlue;
+background-size: cover;
+font-family:Arial'
+color:white;
+}
+
+nav{
+background:#5b92e5;
+ background-size: cover;
+height: 200px;
+width:100%;
+}
+
+label.logo{
+color: white;
+ background-size: cover;
+font-size:80px;
+line-height:140px;
+padding: 0 100px;
+font-weight:bold;
+
+}
+ul{
+margin: 0px;
+padding:6px;
+list-style: none;
+}
+ul li{
+float: left;
+width:300px;
+height:50px;
+background-color: white;
+ background-size: cover;
+opacity: .8;
+line-height: 40px;
+text-align: center;
+font-size:26px;
+}
+ul li a{
+text-decoration:none;
+color:#1CABE2;
+dislay:block;
+}
+ul li a:hover{
+background-color:white;
+opacity: .9;
+}
+ul li ul li{
+display:none;
+}
+ul li:hover ul li {
+display: block;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.container1 {
+  position: absolute;
+  left: 350px;
+  top: 500px;
+
+  margin: auto;
+  width: 68%;
+  height:40%;
+  border: 4px solid #5b92e5;
+  padding: 20px;
+background-color: white;
+}
+input[type=text]] {
+  width: 100px;
+hegiht: 100px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,  {
+  background-color: #ddd;
+  outline: none;
+}.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;}
+.container {
+  padding: 16px;
+  background-color: white;}
+</style> 
+<head> 
+<meat charset="utf-8">
+  <title> My Website</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+<body>
+<nav>
+  <label class="logo">RAISE QC</label>
+<ul>
+  <li> <a> Home</a></li>
+ <li> <a> News</a>
+<ul>
+    <li> <a href="numbercount.html"> Number Count</a></li>
+      <li> <a href="vaccineupdate.html"> Vaccine Update</a></li>
+      <li> <a href="placeupdate.html"> Place Update</a></li>
+  </ul></li>
+
+  <li> <a> Interactive</a> <ul>  
+<li> <a href="raise.html"> Raising Questions </a></li> 
+ <li> <a href="answered.html"> Questions Answered</a></li> </ul>
+</li>
+ 
+  <li> <a href="privacy.html"> Privacy and Policy</a></li>
+  <li> <a href="aboutus.html"> About Us</a></li>
+  </nav>
+ <div class="container">
+<h1>What do you want to ask?</h1>
+  
+    <hr>
+    <label for="question"><b>Question</b></label>
+    <input type="text" placeholder="Raise your Question" name="question" id="question" required>
+
+    <button type="submit" class="registerbtn">RAISE YOUR QUESTION</button>
+  </div>
+
+  </body>
+  </html>
