@@ -9,7 +9,7 @@ nav{
 background:#5b92e5;
  background-size: cover;
 height: 200px;
-width:120%;
+width:100%;
 }
 
 label.logo{
@@ -22,8 +22,8 @@ font-weight:bold;
 
 }
 ul{
-margin: 1px;
-padding:5px;
+margin: 0px;
+padding:6px;
 list-style: none;
 }
 ul li{
@@ -44,6 +44,7 @@ dislay:block;
 }
 ul li a:hover{
 background-color:white;
+opacity: .9;
 }
 ul li ul li{
 display:none;
@@ -52,27 +53,21 @@ ul li:hover ul li {
 display: block;
 }
 
-.container{
-min-height: 100vh;
-width: 100%
-display: flex;
-align-items: center;
-justify-concent: center;
-}
-
 section:after {
   content: "";
   display: table;
   clear: both;
 }
+
+
 .container1 {
   position: absolute;
-  left: 70px;
-  top: 326px;
+  left: 650px;
+  top: 500px;
   
   margin: auto;
   width: 50%;
-  height:50%;
+  height:40%;
   border: 4px solid #5b92e5;
   padding: 20px;
 background-color: white;
