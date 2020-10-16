@@ -75,3 +75,20 @@ background-image: url('https://lh3.googleusercontent.com/proxy/x0DVtAJvyZ8M_m0PK
   padding: 20px;
 
 }
+.contact {
+position: absolute;
+ 
+  left: 35px;
+  top: 250px;
+   box-sizing: content-box;  
+  width: px;
+  height: 130px;
+  padding: 30px;  
+  border: 4px solid blue;
+  border-color: #5b92e5;
+background: white;
+}
+  
+  
+   
+ 
