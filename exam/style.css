@@ -29,7 +29,7 @@ list-style: none;
 }
 ul li{
 float: left;
-width:316px;
+width:290px;
 height:55px;
 background-color: white;
  background-size: cover;
@@ -63,8 +63,8 @@ section:after {
 
 .container1 {
   position: absolute;
-  left: 60px;
-  top: 310px;
+  left: 500px;
+  top: 600px;
 background-image: url('https://lh3.googleusercontent.com/proxy/x0DVtAJvyZ8M_m0PKnb5SV-QP6von4v9DmcSlwGQ8r7u-562k5ZnW11x1ZGoQIQGnkn4rUfO5NNDBRadCJHbK6qt1_3__iT85XLK');
 
  
@@ -79,7 +79,7 @@ background-image: url('https://lh3.googleusercontent.com/proxy/x0DVtAJvyZ8M_m0PK
 position: absolute;
  
   left: 35px;
-  top: 250px;
+  top: 350px;
    box-sizing: content-box;  
   width: px;
   height: 130px;
@@ -123,6 +123,5 @@ background: white;
   background-color: white;
   color: black;
 }
-
 
 
