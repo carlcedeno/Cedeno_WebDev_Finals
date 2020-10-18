@@ -112,7 +112,7 @@ position: absolute;
 background-image: url('https://static.coindesk.com/wp-content/uploads/2020/03/1920px-COVID-19_Community_Quarantine_Checkpoint_in_Cagayan-1035x666.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-   
+}
  .about-container{
     width:80%;
     height:330px;
@@ -152,66 +152,59 @@ position: absolute;
   left: 250px;
   top: 400px;
 }
-.number-container{
- position: absolute;
- background-image: url(data:image/jpeg;base64,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");
 
- left: 35px;
-  top: 350px;
+
+
+  .numbercount{
+position: absolute;
+  left: 35px;
+  top: 750px;
    box-sizing: content-box;  
-  width: 1000px;
-  height: 130px;
-  padding: 200px;  
+  width: 800px;
+  height: 200px;
+  padding: 30px;  
   border: 4px solid blue;
   border-color: #5b92e5;
+background-image: url('https://static.coindesk.com/wp-content/uploads/2020/03/1920px-COVID-19_Community_Quarantine_Checkpoint_in_Cagayan-1035x666.jpg');
+background-repeat: no-repeat;
+background-size: cover;
 
+}
+  .about1-container{
+top: 190px;
 
-}table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-height: 100px;
-  width: 100%;
-}
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 10px;
-}
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-.about1-container{
- position: absolute;
-left: 290px;
-  top: 500px;
-    width:80%;
+  width:80%;
     height:330px;
-    background:#ffffff;
+    background: AliceBlue;
     border-radius:20px;
     box-shadow:2px 2px 12px rgba(0,0,0,0.2);
     display: flex;
     margin: -11%  auto 20px auto;
+    position: relative;
     justify-content:space-evenly;
     align-items: center;
+  }
+.container2 {
+  position: absolute;
+  left: 240px;
+  top: 750px;
+  
+  margin: auto;
+  width: 79.4%;
+  height:22%;
+
+  padding: 20px;
 }
-.about1-text {
-
-  width:500px;}
-
-.block {
-  display: block;
-  width: 100%;
+.buttonportfolio {
+  background-color: BurlyWood;
+ left: 100px;
   border: none;
-  background-color: lightgrey;
   color: white;
-  padding: 15px 28px;
-  font-size: 16px;
-  cursor: pointer;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-
-.block:hover {
-  background-color: white;
-  color: black;
-}
-
