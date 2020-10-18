@@ -1,12 +1,14 @@
-<!DOCTYPE html>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://github.com/carlcedeno/Cedeno_WebDev_Finals/blob/master/exam/style.css">
 
 <html><meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <head> 
-<style>body{
+
+<style> 
+body{
 background-image: url('data:image/jpeg;base64,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');
 
 background-size: cover;
@@ -196,7 +198,7 @@ top: 190px;
   position: absolute;
   left: 240px;
   top: 750px;
-  
+
   margin: auto;
   width: 79.4%;
   height:22%;
@@ -216,38 +218,7 @@ top: 190px;
   margin: 4px 2px;
   cursor: pointer;
 }
- .number-container{
-top: 190px;
-background-image: url('https://outbreaknewstoday.com/wp-content/uploads/2020/05/download.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-  width:80%;
-    height:330px;
-   
-    border-radius:20px;
-    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
-    display: flex;
-    margin: -11%  auto 20px auto;
-    position: relative;
-    justify-content:space-evenly;
-    align-items: center;
-  }
-
-.tablecontainer{
-
-top: 425px;
-background: white;
-  width:80%;
-    height:250px;
-    border-radius:20px;
-    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
-    display: flex;
-    margin: -11%  auto 20px auto;
-    position: relative;
-    justify-content:space-evenly;
-    align-items: center;
-
-} </style>
+  </style>
 <meat charset="utf-8">
   <title> My Website</title>
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -263,9 +234,7 @@ background: white;
     <li> <a href="numbercount.html"> Number Count</a></li>
       <li> <a href="vaccineupdate.html"> Vaccine Update</a></li>
       <li> <a href="placeupdate.html"> Place Update</a></li>
-
   </ul></li>
-
   <li> <a> Interactive</a> <ul>  
 <li> <a href="raise.html"> Raising Questions </a></li> 
  <li> <a href="answered.html"> Questions Answered</a></li> </ul>
@@ -273,49 +242,44 @@ background: white;
  
   <li> <a href="privacy.html"> Privacy and Policy</a></li>
   <li> <a href="aboutus.html"> About Us</a></li>
-<br>
-<br>
-  </nav>
   
 <style>
 h1 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}
 </style>
-    <p> </p><br>
- <p> </p><br>
- <p> </p><br>
-       <h1 style="color:GOLDENROD" ><strong> Number Count in the Philippines</strong> </h1>
-
-<div class="number-container"> 
-  </div> 
-<div class="tablecontainer">
-  <style> table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 7px solid #dddddd;
-  text-align: left;
-  padding: 9px;
-}</style>
-
-<table>
-  <tr>
-    <th style="font-size:30px">
-Total cases</th>
-    <th style="font-size:30px">Recovered</th>
-    <th style="font-size:30px">Deaths</th>
-  </tr>
-  <tr>
-    <td style="font-size:30px">357K</td>
-    <td style="font-size:30px">310K</td>
-    <td style="font-size:30px">6,652</td>
-  </tr>
-  <tr>
-
- </article>
+    <p>  </p> <br>
+    <p> </p>  <br>
+<p> </p>  <br>
+<p> </p>  <br>
+<p> </p>  <br>
+  <h1 style="color:GOLDENROD" ><strong> ABOUT US</strong> </h1>
+  <div class="about1-container"> 
+<p  style="font-size:30px"> Hello, I am Carlyn Loudy Cedeno and I am a student from Computer Science in University of Immaculate Conception and also I am in my 2nd year of my course. If ever you are interested more about me, please do visit my <button class="buttonportfolio"type="button" onclick="alert('I'll take you to my portfolio)"><a href="https://carlcedeno.github.io/Cedeno_WebDev_Midterm/exam/part2b/cedeno_portfolio.html">PORTFOLIO</a></button>.</p> <br>
+  </div>
+  </nav>
   </body>
+ 
+<div class="container2">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 style="color:GOLDENROD"> <strong>CONTACT US</strong></h3>
+<p  style="color:black" >
+TNT: 09090909090 <br>
+GLOBE: 09123456789</p>
+ 
+    </div>
+    <div class="col-sm-4">
+      <h3 style="color:GoldenRod"> <strong>FOLLOW US </strong></h3>
+    
+    </div>
+    <div class="col-sm-4">
+      <h3 style="color:GoldenRod" ><strong>RECOGNITION </strong></h3>        
+      <p style="font-size:17px">Credits to some websites that we got some information.</p>
+    </div>
+  </div>
+</div>
+  </body>
+<article>
+  </section>
   </html>
