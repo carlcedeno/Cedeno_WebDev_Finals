@@ -208,3 +208,35 @@ top: 190px;
   margin: 4px 2px;
   cursor: pointer;
 }
+ .number-container{
+top: 190px;
+background-image: url('https://outbreaknewstoday.com/wp-content/uploads/2020/05/download.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+  width:80%;
+    height:330px;
+   
+    border-radius:20px;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: -11%  auto 20px auto;
+    position: relative;
+    justify-content:space-evenly;
+    align-items: center;
+  }
+
+.tablecontainer{
+
+top: 425px;
+background: white;
+  width:80%;
+    height:250px;
+    border-radius:20px;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: -11%  auto 20px auto;
+    position: relative;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
